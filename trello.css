@@ -1,6 +1,6 @@
 /*
 These config does not change the default Trello's styling drastically, 
-but does make Trello look a bit more polished. 
+but does make it look a bit more polished. 
 Key elements of new styling is big background image (see body style) and semitransparency.
 
 Author: Sergey Pozhilov (http://pozhilov.com)
@@ -8,21 +8,24 @@ License : Do whatever you want with the file
 */
 
 
-body {
-    background: url(http://cinemagraphcollection.com/cinemagraphs/5658550961_6976fa5188_o.gif);
-    background-size: cover;
-}
-
 #board-header a {
     color: white;
 }
 
 #header {
-    background: rgba(0,10,15,.8);
+    background: rgba(0,0,0,.6);
+}
+
+.agile_spent_item_title, #spent_recent_cards {
+    display: none;
+}
+
+.agile_spent_items_container tbody {
+    background: none;
 }
 
 .board-header {
-    background: rgba(0,10,15,.6);
+    background: rgba(0,0,0,.4);
     padding-bottom: 9px;
 }
 
@@ -51,13 +54,18 @@ a.gold-pitch.js-gold-ad {
     display: none;
 }
 
+body {
+    background: url(https://dl.dropboxusercontent.com/u/92424056/inception-whip-top.jpg);
+    background-size: cover;
+}
+
 div.board-canvas {
     background: rgba(0,0,0,.3);
 }
 
 div.list {
-    background: rgba(255,255,255,.6);
-    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.3);
+    background: rgba(255,255,255,.4);
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0);
 }
 
 div.window-wrapper, .window-main-col {
