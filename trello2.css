@@ -1,0 +1,330 @@
+/*
+Key elements of the theme are big background image for body and ticket-styled lists.
+
+Author: Sergey Pozhilov (http://pozhilov.com)
+License : Do whatever you want with the file
+*/
+
+body {
+    background: url(http://wallb.com/assets/2013/11/landscapes-nature-skyscapes.jpg);
+    background-size: cover;
+}
+
+div.list {
+    background-color: #ffffff ;
+    background-image: url(https://dl.dropboxusercontent.com/u/92424056/bg_list.png);
+    background-repeat: repeat-x;
+    border-radius: 0px ;
+    margin-bottom: 10px ;
+    margin-left: 7px ;
+    margin-right: 7px ;
+    margin-top: 0 ;
+    padding: 0 ;
+}
+
+
+#board-header .board-name {
+    font-weight: normal ;
+}
+
+#board-header a {
+    color: white;
+}
+
+#header-search input[type="text"]:focus {
+    background: #fff ;
+}
+
+.agile_spent_item_title, #spent_recent_cards {
+    display: none;
+}
+
+.agile_spent_items_container tbody {
+    background: none;
+}
+
+.attachment-list li .preview .check-icon {
+    background-color: #676767 ;
+}
+
+.attachment-list li .preview.is-cover {
+    background-color: #676767 ;
+}
+
+.board-header {
+    background: rgba(0,0,0,0);
+    padding-bottom: 9px;
+}
+
+.board-list li {
+    opacity: 0.9;
+}
+
+.board-name .text {
+    color: white;
+}
+
+.board-side-btn.left-side .arrow {
+    border-left-color: #757575 ;
+}
+
+.button-link:hover {
+    background: -moz-linear-gradient(center top , #676767 0%, #3F3F3F 100%) repeat scroll 0 0 transparent ;
+    border-color: #3F3F3F ;
+}
+
+.card-label {
+    text-shadow: none ;
+}
+
+.extra-large-window .board-side-btn.right-side .arrow, .large-window .board-side-btn.right-side .arrow, .medium-window .board-side-btn.right-side .arrow {
+    border-left-color: #757575 ;
+}
+
+.extra-large-window .board-side-btn:hover, .large-window .board-side-btn:hover, .medium-window .board-side-btn:hover {
+    background: #ADADAD ;
+}
+
+.extra-large-window .board-wrapper.disabled-all-widgets .board-side-btn.right-side .arrow, .large-window .board-wrapper.disabled-all-widgets .board-side-btn.right-side .arrow, .medium-window .board-wrapper.disabled-all-widgets .board-side-btn.right-side .arrow {
+    border-right-color: #757575 ;
+}
+
+.extra-large-window.layout-horiz-scroll #board,.large-window.layout-horiz-scroll #board {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 3px;
+    margin-left: 155px;
+}
+
+.extra-large-window.layout-horiz-scroll .board-wrapper.disabled-list-guide #board,.large-window.layout-horiz-scroll .board-wrapper.disabled-list-guide #board {
+    border-radius: 3px;
+    margin-left: 8px;
+}
+
+.extra-large-window.layout-horiz-scroll .board-wrapper.disabled-list-guide .list-guide,.large-window.layout-horiz-scroll .board-wrapper.disabled-list-guide .list-guide {
+    display: none;
+}
+
+.extra-large-window.layout-horiz-scroll .list-area-wrapper,.large-window.layout-horiz-scroll .list-area-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.extra-large-window.layout-horiz-scroll .list-area-wrapper::-webkit-scrollbar,.large-window.layout-horiz-scroll .list-area-wrapper::-webkit-scrollbar {
+    height: 13px;
+    width: 13px;
+}
+
+.extra-large-window.layout-horiz-scroll .list-area-wrapper::-webkit-scrollbar-button,.large-window.layout-horiz-scroll .list-area-wrapper::-webkit-scrollbar-button {
+    display: block;
+    height: 2px;
+    width: 2px;
+}
+
+.extra-large-window.layout-horiz-scroll .list-area-wrapper::-webkit-scrollbar-thumb:vertical,.large-window.layout-horiz-scroll .list-area-wrapper::-webkit-scrollbar-thumb:vertical,.extra-large-window.layout-horiz-scroll .list-area-wrapper::-webkit-scrollbar-thumb:horizontal,.large-window.layout-horiz-scroll .list-area-wrapper::-webkit-scrollbar-thumb:horizontal {
+    background: #888a85;
+    border-color: transparent;
+}
+
+.extra-large-window.layout-horiz-scroll .list-area-wrapper::-webkit-scrollbar-track-piece,.large-window.layout-horiz-scroll .list-area-wrapper::-webkit-scrollbar-track-piece {
+    background: rgba(245, 245, 245, 0.16);
+}
+
+.extra-large-window.layout-horiz-scroll .list-guide,.large-window.layout-horiz-scroll .list-guide {
+    display: block;
+    left: 8px;
+    position: absolute;
+    top: 42px;
+}
+
+.extra-large-window.layout-horiz-scroll.window-up .list-guide,.large-window.layout-horiz-scroll.window-up .list-guide {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.fancy-scrollbar::-webkit-scrollbar-track-piece {
+    background: transparent;
+}
+
+.list .list-header {
+    margin-bottom: 7px ;
+    margin-top: 12px ;
+}
+
+.list .list-header .list-title {
+    font-weight: 100 ;
+    text-align: center ;
+}
+
+.list a.open-card-composer {
+    border-radius: 0px ;
+    border-top: 1px dashed #ccc ;
+    box-shadow: none ;
+    color: #51a1f7 ;
+    /*text-transform: uppercase ;*/
+    /*font-size: 10px ;*/
+    margin: 0px;
+    padding: 14px 0 ;
+    text-align: center ;
+    text-decoration: none ;
+    vertical-align: middle ;
+}
+
+.list-car-area, .list-cards.fancy-scrollbar {
+    min-height: 0px;
+}
+
+.list-card {
+    border: none ;
+    border-color: #D6D6D6 ;
+    border-radius: 0px ;
+    border-top: 1px dashed #ccc ;
+    /*border-bottom: 1px solid #ddd ;*/
+}
+
+.list-card.selected, .list-card.active-card {
+    border-color: #828282 ;
+    box-shadow: none ;
+    /* on hover/selected */
+    /*box-shadow: 0 0 5px #828282 ;*/
+}
+
+.list-cards {
+    padding-top: 6px ;
+}
+
+.list-cards .card-labels {
+    /*margin-top: -14px!important;*/
+}
+
+.list-cards .card-labels .card-label {
+    border-radius: 6px ;
+    height: 12px ;
+    margin-left: 6px ;
+    margin-top: -6px ;
+    width: 12px ;
+}
+
+.list-gradient-top, .list-gradient-bottom {
+    background: none ;
+}
+
+.member {
+    border-radius: 15px ;
+    margin-right: 5px ;
+    overflow: visible ;
+}
+
+.member .status, .member .member-type {
+    border: 1px solid white ;
+    border-radius: 5px ;
+}
+
+.member .status.active {
+    background-color: #1b1 ;
+}
+
+.member img {
+    border-radius: 15px ;
+}
+
+.open-card-composer {
+    background: transparent;
+    color: #222;
+}
+
+.open-card-composer:after {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAABNSURBVBiVrZDBCcAgFMViB+oujuHdQZzQEbpCevmlYosnA4HPI6efVNnIMdwCDTjDFtvMuvOlqkxWvyw71K7mn+ixqFdYFl1We9r8Qm7P7JRO/qEsAwAAAABJRU5ErkJggg==");
+    content: "";
+    display: block;
+    height: 5px;
+    left: -0px;
+    position: absolute;
+    top: 45px;
+    width: 100%;
+}
+
+.open-card-composer:hover {
+    background-color: #eee ;
+    /*color: #fff;*/
+}
+
+.open-card-composer:hover:after {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAABaSURBVBiVrZDBCYAwFEOjA3UXx+i9gzhhN/jvjxAvFkVUPBgIBPIgkAmwftR8yra9SiqSyp7vxt45wIAjotnW2RHRRv+VE9Azc7lCw0DlUH3iMnMB+mT/eqE2FJScDaGSTGgAAAAASUVORK5CYII=");
+    content: "";
+    display: block;
+    height: 5px;
+    left: -0px;
+    position: absolute;
+    top: 45px;
+    width: 100%;
+}
+
+.pop-over-list li > a:hover, .uploader:hover .fakefile {
+    background: #424242 ;
+    border: none ;
+}
+
+.sticker-image {
+    margin-left: -10px;
+}
+
+.window-wrapper {
+    background: #f5f5f5;
+}
+
+a.gold-pitch.js-gold-ad {
+    display: none;
+}
+
+/**************** CARD CONTENT (back side) *****************/
+
+div.board-canvas {
+    background: rgba(0,0,0,.3);
+}
+
+div.card-label.blue-label {
+    background-color: #3B7CFF ;
+}
+
+div.card-label.green-label {
+    background-color: #51C702 ;
+}
+
+div.card-label.orange-label {
+    background-color: #FF6600 ;
+}
+
+div.card-label.purple-label {
+    background-color: #9933CC ;
+}
+
+div.card-label.red-label {
+    background-color: #C90000 ;
+}
+
+div.card-label.yellow-label {
+    background-color: #EDED05 ;
+}
+
+div.window-wrapper, .window-main-col {
+    background: white;
+}
+
+div.window-wrapper>.clearfix.editable {
+    background: white;
+}
+
+html, body, input, select, textarea {
+    font-size: 13px ;
+}
+
+input.primary[type="submit"], input.primary[type="button"], button.primary, .button.primary {
+    background: -moz-linear-gradient(center top , #676767 0%, #3F3F3F 100%) repeat scroll 0 0 transparent ;
+}
+
+span.placeholder.js-open-add-list {
+    color: #878787;
+}
+
