@@ -1,0 +1,74 @@
+body {
+    background: url(http://www.wallpaperup.com/uploads/wallpapers/2013/07/26/122878/23f7816eaa024af6ecc51e6d6a26980b.jpg);
+    background-size: cover;
+}
+
+#board {
+    padding-top: 15px;
+}
+
+.board-header {
+    background: rgba(0,10,15,.6);
+    padding-bottom: 9px;
+}
+
+#board-header a {
+    color: white;
+}
+
+#header {
+    background: rgba(0,10,15,.8);
+}
+
+#idTableSpentItemsHome tbody {
+    background: rgba(255,255,255,0.25);
+}
+
+#idTableSpentItemsHome tbody tr:nth-child(2) {
+    display: none;
+}
+
+.board-name .text {
+    color: white;
+}
+
+.classid_spent_week_users, .classid_spent_week_board {
+    color: white;
+}
+
+.fancy-scrollbar::-webkit-scrollbar-track-piece {
+    background: transparent;
+}
+
+.open-card-composer {
+    background: transparent;
+    color: #222;
+}
+
+.window-wrapper {
+    background: #f5f5f5;
+}
+
+a.gold-pitch.js-gold-ad {
+    display: none;
+}
+
+div.board-canvas {
+    background: rgba(0,0,0,.01);
+}
+
+div.window-wrapper, .window-main-col {
+    background: white;
+}
+
+div.window-wrapper>.clearfix.editable {
+    background: white;
+}
+
+html, body, input, select, textarea, button {
+    font-family: Georgia;
+}
+
+html, body, textarea {
+    color: #505050;
+}
