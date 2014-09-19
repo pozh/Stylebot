@@ -6,13 +6,13 @@ License : Do whatever you want with the file
 */
 
 body {
-    background: url(http://wallb.com/assets/2013/11/landscapes-nature-skyscapes.jpg);
+    background: url(http://www.wallpaperup.com/uploads/wallpapers/2013/07/26/122878/23f7816eaa024af6ecc51e6d6a26980b.jpg);
     background-size: cover;
 }
 
 div.list {
     background-color: #ffffff ;
-    background-image: url(https://dl.dropboxusercontent.com/u/92424056/bg_list.png);
+    /*background-image: url(https://dl.dropboxusercontent.com/u/92424056/bg_list.png);*/
     background-repeat: repeat-x;
     border-radius: 0px ;
     margin-bottom: 10px ;
@@ -22,6 +22,14 @@ div.list {
     padding: 0 ;
 }
 
+.board-header {
+    background: rgba(0,10,15,.6);
+    padding-bottom: 9px;
+}
+
+#header {
+    background: rgba(0,10,15,.8);
+}
 
 #board-header .board-name {
     font-weight: normal ;
